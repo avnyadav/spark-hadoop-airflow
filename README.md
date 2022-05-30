@@ -1,7 +1,4 @@
-Pull a image for spark and hdfs
-```
-docker pull oneoffcoder/spark-jupyter
-```
+
 ### Purpose
 This docker container is meant to be used for learning purpose for programming PySpark. It has the following components.
 
