@@ -32,10 +32,12 @@ Click on below link to access portal
 
 [History Server](http://localhost:18080)
 
-[Jupyter lab](http://localhost:8080)
+[Jupyter lab](http://localhost:8888)
 
 [Hadoop Data Node](http://localhost:9864)
 
-[Airflow Image](http://localhost:8081)
+[Airflow Image](http://localhost:8085)
+
+[Spark Worker Node](http://localhost:8081)
 
 [Airflow Scheduler](http://localhost:8793)
