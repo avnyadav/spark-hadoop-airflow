@@ -8,6 +8,7 @@ docker run -it \
     -p 8888:8888 \
     -p 9864:9864 \
     -p 8081:8081 \
+    -p 8793:8793 \
     -v $PROJECT_DIR/project/notebook:/root/ipynb \
     -v $PROJECT_DIR/project/airflow:/home/airflow \
     spark-hadoop-airflow

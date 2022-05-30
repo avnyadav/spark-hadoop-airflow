@@ -50,4 +50,7 @@ Click on below link to access portal
 [Jupyter lab](http://localhost:8080)
 
 [Hadoop Data Node](http://localhost:9864)
+
 [Airflow Image](http://localhost:8081)
+
+[Airflow Scheduler](http://localhost:8793)
