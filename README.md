@@ -19,21 +19,6 @@ After running the container, you may visit the following pages.
 
 To run the docker container, type in the following.
 ```
-docker run -it \
-    -p 9870:9870 \
-    -p 8088:8088 \
-    -p 8080:8080 \
-    -p 18080:18080 \
-    -p 9000:9000 \
-    -p 8888:8888 \
-    -p 9864:9864 \
-    -v $HOME/git/docker-containers/spark-jupyter/ubuntu/root/ipynb:/root/ipynb \
-    oneoffcoder/spark-jupyter
-```
-
-OR
-
-```
 bash ./start-docker-container.sh
 ```
 
