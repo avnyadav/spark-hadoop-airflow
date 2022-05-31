@@ -30,6 +30,13 @@ ENV AIRFLOW_USER_PASSWORD=airflow
 ENV AIRFLOW_USER_ROLE=Admin
 ENV AIRFLOW_EMAIL_ID=yadav.tara.avnish@gmail.com
 ENV AIRFLOW_HOME=/home/airflow
+
+RUN apt-get update && \
+    apt-get install -yq tzdata && \
+    ln -fs /usr/share/zoneinfo/Asia/Kolkata /etc/localtime && \
+    dpkg-reconfigure -f noninteractive tzdata
+
+ENV TZ="Asia/Kolkata"
 # setup ubuntu
 RUN apt-get update -y \
     && apt-get upgrade -y \
