@@ -1,2 +1,4 @@
+pyspark==3.2.1
 apache-airflow==2.2.5
 apache-airflow[cncf.kubernetes]
+wget
